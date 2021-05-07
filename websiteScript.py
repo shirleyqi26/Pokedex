@@ -188,7 +188,7 @@ def home():
             elif pred == 70:
                 return redirect(url_for("weepinbell"))
             elif pred == 71:
-                return redirect(url_for("victreebell"))
+                return redirect(url_for("victreebel"))
             elif pred == 72:
                 return redirect(url_for("tentacool"))
             elif pred == 73:
@@ -484,9 +484,9 @@ def bellsprout():
 def weepinbell():
     return render_template("70-Weepinbell.html")
 
-@app.route("/victreebell/")
-def victreebell():
-    return render_template("71-Victreebell.html")
+@app.route("/victreebel/")
+def victreebel():
+    return render_template("71-Victreebel.html")
 
 @app.route("/tentacool/")
 def tentacool():
