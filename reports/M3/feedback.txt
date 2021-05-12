@@ -1,0 +1,1 @@
+Good, also just a hint that if your model takes long time to train, do make sure you checkpointing it, so you can resume later
