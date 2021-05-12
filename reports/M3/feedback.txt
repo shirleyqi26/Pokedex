@@ -1,1 +1,1 @@
-Good, also just a hint that if your model takes long time to train, do make sure you checkpointing it, so you can resume later
+Great, glad to see you guys are almost done. I am looking forward to see your final demo.
