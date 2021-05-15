@@ -280,7 +280,7 @@ def pidgeot():
 
 @app.route("/rattata/")
 def rattata():
-    return render_template("rattatatest.html", Pokemon1 = pokemonDict[request.args['number1']], Pokemon2 = pokemonDict[request.args['number2']],Pokemon3 = pokemonDict[request.args['number3']], Pokemon4 = pokemonDict[request.args['number4']], Pokemon5 = pokemonDict[request.args['number5']], first = request.args['number1'], second = request.args['number2'], third = request.args['number3'], forth = request.args['number4'], fifth = request.args['number5'], firstpercent = request.args['percent1'], secondpercent=request.args['percent2'], thirdpercent = request.args['percent3'], forthpercent = request.args['percent4'], fifthpercent = request.args['percent5'])
+    return render_template("19-Rattata.html", Pokemon1 = pokemonDict[request.args['number1']], Pokemon2 = pokemonDict[request.args['number2']],Pokemon3 = pokemonDict[request.args['number3']], Pokemon4 = pokemonDict[request.args['number4']], Pokemon5 = pokemonDict[request.args['number5']], first = request.args['number1'], second = request.args['number2'], third = request.args['number3'], forth = request.args['number4'], fifth = request.args['number5'], firstpercent = request.args['percent1'], secondpercent=request.args['percent2'], thirdpercent = request.args['percent3'], forthpercent = request.args['percent4'], fifthpercent = request.args['percent5'])
 
 @app.route("/raticate/")
 def raticate():
